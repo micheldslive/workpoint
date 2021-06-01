@@ -1,5 +1,5 @@
 <p align="center">	
-  <img src="https://github.com/micheldslive/workpoint/blob/master/demo/logo.png" height="150" width="600" alt="Unform" />
+  <img src="https://github.com/micheldslive/workpoint/blob/master/demo/logo.png" width="300" alt="Unform" />
 </p>	
 
 <br>	
