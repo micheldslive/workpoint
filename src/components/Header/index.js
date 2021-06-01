@@ -65,7 +65,7 @@ export const Header = ({ sticky }) => {
     <HeaderContainer>
       <Section sticky={scroll ? { sticky } : ""}>
         <NavLink to="/">
-          <Image src={Logo} className="logo" alt="Workpoint Logo" />
+          <Image src={Logo} alt="Workpoint Logo" />
         </NavLink>
         <Navigation>
           <UnList>
