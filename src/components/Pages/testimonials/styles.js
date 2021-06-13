@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { NavigateNext, NavigateBefore } from "@styled-icons/material";
-import NonPassiveTouchTarget from "../../../assets/modules/TouchTarget";
-import Client01 from "../../../assets/images/clients/client01.jpg";
-import Client02 from "../../../assets/images/clients/client02.jpg";
-import Client03 from "../../../assets/images/clients/client03.jpg";
+import NonPassiveTouchTarget from "assets/modules/TouchTarget";
+import Client01 from "assets/images/clients/client01.jpg";
+import Client02 from "assets/images/clients/client02.jpg";
+import Client03 from "assets/images/clients/client03.jpg";
 
 export const Clients = [
   Client01,

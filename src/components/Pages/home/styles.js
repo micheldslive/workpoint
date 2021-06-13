@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Image from "../../../assets/images/home-image.svg";
+import Image from "assets/images/home-image.svg";
 
 export const HomeContainer = styled.div`
   color: white;

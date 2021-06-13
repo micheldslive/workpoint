@@ -1,26 +1,26 @@
-import { ReactComponent as AdobeIcon } from "../../../assets/images/services/design/Adobe-icon.svg";
-import { ReactComponent as BeIcon } from "../../../assets/images/services/design/Be-icon.svg";
-import { ReactComponent as CamIcon } from "../../../assets/images/services/design/Cam-icon.svg";
-import { ReactComponent as EraseIcon } from "../../../assets/images/services/design/Erase-icon.svg";
-import { ReactComponent as PaintIcon } from "../../../assets/images/services/design/Paint-icon.svg";
-import { ReactComponent as PenIcon } from "../../../assets/images/services/design/Pen-icon.svg";
-import { ReactComponent as WindowIcon } from "../../../assets/images/services/design/Window-icon.svg";
+import { ReactComponent as AdobeIcon } from "assets/images/services/design/Adobe-icon.svg";
+import { ReactComponent as BeIcon } from "assets/images/services/design/Be-icon.svg";
+import { ReactComponent as CamIcon } from "assets/images/services/design/Cam-icon.svg";
+import { ReactComponent as EraseIcon } from "assets/images/services/design/Erase-icon.svg";
+import { ReactComponent as PaintIcon } from "assets/images/services/design/Paint-icon.svg";
+import { ReactComponent as PenIcon } from "assets/images/services/design/Pen-icon.svg";
+import { ReactComponent as WindowIcon } from "assets/images/services/design/Window-icon.svg";
 
-import { ReactComponent as ReactIcon } from "../../../assets/images/services/dev/React-icon.svg";
-import { ReactComponent as AmazonIcon } from "../../../assets/images/services/dev/Amazon-icon.svg";
-import { ReactComponent as CloudIcon } from "../../../assets/images/services/dev/Cloud-icon.svg";
-import { ReactComponent as ReduxIcon } from "../../../assets/images/services/dev/Redux-icon.svg";
-import { ReactComponent as NodeIcon } from "../../../assets/images/services/dev/Node-icon.svg";
-import { ReactComponent as FirebaseIcon } from "../../../assets/images/services/dev/Firebase-icon.svg";
-import { ReactComponent as JsIcon } from "../../../assets/images/services/dev/Js-icon.svg";
+import { ReactComponent as ReactIcon } from "assets/images/services/dev/React-icon.svg";
+import { ReactComponent as AmazonIcon } from "assets/images/services/dev/Amazon-icon.svg";
+import { ReactComponent as CloudIcon } from "assets/images/services/dev/Cloud-icon.svg";
+import { ReactComponent as ReduxIcon } from "assets/images/services/dev/Redux-icon.svg";
+import { ReactComponent as NodeIcon } from "assets/images/services/dev/Node-icon.svg";
+import { ReactComponent as FirebaseIcon } from "assets/images/services/dev/Firebase-icon.svg";
+import { ReactComponent as JsIcon } from "assets/images/services/dev/Js-icon.svg";
 
-import { ReactComponent as AtomIcon } from "../../../assets/images/services/marketing/Atom-icon.svg";
-import { ReactComponent as BagIcon } from "../../../assets/images/services/marketing/Bag-icon.svg";
-import { ReactComponent as BallIcon } from "../../../assets/images/services/marketing/Ball-icon.svg";
-import { ReactComponent as CallIcon } from "../../../assets/images/services/marketing/Call-icon.svg";
-import { ReactComponent as ClickIcon } from "../../../assets/images/services/marketing/Click-icon.svg";
-import { ReactComponent as MailIcon } from "../../../assets/images/services/marketing/Mail-icon.svg";
-import { ReactComponent as TargetIcon } from "../../../assets/images/services/marketing/Target-icon.svg";
+import { ReactComponent as AtomIcon } from "assets/images/services/marketing/Atom-icon.svg";
+import { ReactComponent as BagIcon } from "assets/images/services/marketing/Bag-icon.svg";
+import { ReactComponent as BallIcon } from "assets/images/services/marketing/Ball-icon.svg";
+import { ReactComponent as CallIcon } from "assets/images/services/marketing/Call-icon.svg";
+import { ReactComponent as ClickIcon } from "assets/images/services/marketing/Click-icon.svg";
+import { ReactComponent as MailIcon } from "assets/images/services/marketing/Mail-icon.svg";
+import { ReactComponent as TargetIcon } from "assets/images/services/marketing/Target-icon.svg";
 
 import styled from "styled-components";
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Case01 from "../../../assets/images/cases/Case01.jpg";
-import Case02 from "../../../assets/images/cases/Case02.jpg";
-import Case03 from "../../../assets/images/cases/Case03.jpg";
+import Case01 from "assets/images/cases/Case01.jpg";
+import Case02 from "assets/images/cases/Case02.jpg";
+import Case03 from "assets/images/cases/Case03.jpg";
 
 export const Cases = [Case01, Case02, Case03];
 

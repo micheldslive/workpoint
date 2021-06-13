@@ -1,18 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Header, Margin } from "./components/Header";
-import { Footer } from "./components/Footer";
-import Home from "./components/Pages/home";
-import { About } from "./components/Pages/about";
-import { Services } from "./components/Pages/services";
-import { Testimonials } from "./components/Pages/testimonials";
-import { Contact } from "./components/Pages/contact";
-import { Login } from "./components/Pages/login";
-import { Page404 } from "./components/Pages/404";
+import { Header, Margin } from "components/Header";
+import { Footer } from "components/Footer";
+import Home from "components/Pages/home";
+import { About } from "components/Pages/about";
+import { Services } from "components/Pages/services";
+import { Testimonials } from "components/Pages/testimonials";
+import { Contact } from "components/Pages/contact";
+import { Login } from "components/Pages/login";
+import { Page404 } from "components/Pages/404";
 import { Helmet } from "react-helmet";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import ScrollToTop from "./assets/modules/ScrollToTop";
-import "./index.css";
+import ScrollToTop from "assets/modules/ScrollToTop";
+import "index.css";
 
 ReactDOM.render(
   <BrowserRouter>

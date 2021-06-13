@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet";
-import { HomeContact } from "../contact/index";
-import { HomeCases } from "../cases/index";
-import { HomeTestimonials } from "../testimonials/index";
-import { HomeAbout } from "../about/index";
-import { HomeServices } from "../services/index";
+import { HomeContact } from "components/Pages/contact/index";
+import { HomeCases } from "components/Pages/cases/index";
+import { HomeTestimonials } from "components/Pages/testimonials/index";
+import { HomeAbout } from "components/Pages/about/index";
+import { HomeServices } from "components/Pages/services/index";
 import {
   HomeContainer,
   Section,

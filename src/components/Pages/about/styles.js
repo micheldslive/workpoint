@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import AboutImage from "../../../assets/images/about-image.png";
+import AboutImage from "assets/images/about-image.png";
 
 export const AboutUs = styled.div`
   display: block;

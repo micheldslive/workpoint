@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Img from "../../../assets/images/contact-image.svg";
+import Img from "assets/images/contact-image.svg";
 export const ContactContainer = styled.div`
   display: block;
   background-color: white;
