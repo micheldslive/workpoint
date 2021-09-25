@@ -1,4 +1,4 @@
-<p align="center">	
+<p>	
   <img src="https://github.com/micheldslive/workpoint/blob/master/demo/logo.png" width="300" alt="Unform" />
 </p>	
 
