@@ -9,9 +9,15 @@ export const HomeContainer = styled.div`
   background: url(${Image}) no-repeat bottom;
   bottom: -1px;
 
- @media (max-width:880px){
+  @media (max-width: 880px) {
     min-height: 590px;
- }
+  }
+
+  @media (min-width: 1575px) {
+    min-height: 990px;
+    bottom: -100px;
+    background-size: 1920px;
+  }
 `;
 
 export const Section = styled.section`

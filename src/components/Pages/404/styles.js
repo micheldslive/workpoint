@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 export const MainError = styled.div`
   background-color: #d9e9f3;
-  height: 600px;
   width: 100%;
   position: relative;
+  padding-bottom: 20px;
 `;
 
 export const Error = styled.div`

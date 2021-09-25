@@ -36,16 +36,11 @@ class RenderForm extends Component {
       <LoginForm>
         <LoginWrapper>
           <Group flex={flex}>
-            <Radio id="SignIn" type="Radio" name="sign" onClick={() => this.handleClick(1, { SignIn })} checked={this.state.SignIn == null ? "checked" : ""}
+            <Radio id="SignIn" type="Radio" name="sign" readOnly={true} checked={this.state.SignIn == null ? "checked" : ""}
             />
-            <LabelCheck for="SignIn" RadioLabel={RadioLabel}> SIGN IN</LabelCheck>
-            <Radio
-              id="SignUp"
-              type="Radio"
-              name="sign"
-              onClick={() => this.handleClick(2, { SignUp })}
-            />
-            <LabelCheck for="SignUp" RadioLabel={RadioLabel}> SIGN UP</LabelCheck>
+            <LabelCheck htmlFor="SignIn" RadioLabel={RadioLabel} onClick={() => this.handleClick(1, { SignIn })}> SIGN IN</LabelCheck>
+            <Radio id="SignUp" type="Radio" name="sign"/>
+            <LabelCheck htmlFor="SignUp" RadioLabel={RadioLabel} onClick={() => this.handleClick(2, { SignUp })}> SIGN UP</LabelCheck>
           </Group>
           <LoginContainer>
             <Form SignIn={this.state.SignIn}>
@@ -58,8 +53,8 @@ class RenderForm extends Component {
                 <Input id="pass" type="password" data-type="password" />
               </Group>
               <Group flex={flex}>
-                <Checkbox id="check" type="checkbox" />
-                <LabelCheck for="check"> Keep me Signed in</LabelCheck>
+                <Checkbox id="check" name="check" type="checkbox" />
+                <LabelCheck htmlFor="check"> Keep me Signed in</LabelCheck>
               </Group>
               <Group>
                 <Input type="submit" value="Sign In" sign={sign} />
@@ -73,19 +68,19 @@ class RenderForm extends Component {
             <Form SignUp={this.state.SignUp}>
               <Group>
                 <Label>Username</Label>
-                <Input id="user" type="text" />
+                <Input name="user" type="text" />
               </Group>
               <Group>
                 <Label>Password</Label>
-                <Input id="pass" type="password" data-type="password" />
+                <Input name="pass" type="password" data-type="password" />
               </Group>
               <Group>
                 <Label>Repeat Password</Label>
-                <Input id="pass" type="password" data-type="password" />
+                <Input name="repeat-pass" type="password" data-type="password" />
               </Group>
               <Group>
                 <Label>E-mail</Label>
-                <Input id="user" type="text" />
+                <Input name="email" type="text" />
               </Group>
               <Group>
                 <Label>&nbsp;</Label>
