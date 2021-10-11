@@ -18,10 +18,15 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 `;
 export const Column = styled.div`
   width: calc(16.66666667% - 1em);
   margin: 0.5em 0.5em;
+
+  @media (min-width:600px) and (max-width: 900px) {
+    width: calc(50% - 1em);
+  }
 
   @media (max-width: 599px){
     width: 100%;

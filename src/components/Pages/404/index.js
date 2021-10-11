@@ -3,7 +3,7 @@ import { MainError, Error, ErrorMsg, Link } from "./styles";
 
 export const Page404 = () => {
   return (
-    <div class="404">
+    <>
       <Helmet>
         <title>404</title>
         <meta name="description" content="Page not Found." />
@@ -16,6 +16,6 @@ export const Page404 = () => {
           from there.
         </ErrorMsg>
       </MainError>
-    </div>
+    </>
   );
 };

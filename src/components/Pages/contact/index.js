@@ -28,7 +28,7 @@ export const HomeContact = () => {
           <Form>
             <Title>Send Us message</Title>
             <Group>
-              <Input type="text" required="" class="input-place" />
+              <Input type="text" required="" />
               <Label>Your Name*</Label>
             </Group>
             <Group>
@@ -48,7 +48,7 @@ export const HomeContact = () => {
               <Label>Your Message</Label>
             </Group>
             <Group>
-              <Checkbox type="checkbox" class="checkmark" id="horns" name="horns" />
+              <Checkbox type="checkbox" id="horns" name="horns" />
               <Paragraph>
                 By sending this message, you confirm that you
                 <br /> have read and agreed to our privacy-policy.
