@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+  :root {
     --white: #fff;
     --green: #0a8f4a;
     --red: #b72f58;
@@ -53,9 +56,6 @@
       width: 1150px;
       margin: 0 auto;
     }
-    .content {
-      padding: 0.8em 1.5em;
-    }
   }
   
   @media screen and (min-width: 880px) and (max-width: 1180px) {
@@ -63,20 +63,11 @@
       width: 850px;
       margin: 0 auto;
     }
-    .content {
-      padding: 0.8em 1.5em;
-    }
   }
   
   @media screen and (max-width: 879px) {
     section {
       margin: 0 15px;
     }
-    .content {
-      padding: 0.8em 0;
-    }
   }
-  
-  .content {
-    position: relative;
-  }
+`;

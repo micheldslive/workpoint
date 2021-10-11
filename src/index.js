@@ -12,13 +12,14 @@ import { Page404 } from "components/Pages/404";
 import { Helmet } from "react-helmet";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ScrollToTop from "assets/modules/ScrollToTop";
-import "index.css";
+import { GlobalStyle } from "assets/global";
 
 ReactDOM.render(
   <BrowserRouter>
     <Helmet titleTemplate="%s - WorkPoint" defaultTitle="WorkPoint">
       <meta name="description" content="React.js application" />
     </Helmet>
+    <GlobalStyle />
     <Header />
     <Margin />
     <ScrollToTop>
